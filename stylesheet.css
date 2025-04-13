@@ -978,16 +978,20 @@ audio {
 
 }
 .bannar-come {
-	-webkit-animation: bannar_come linear 6s;
-	-webkit-transform:translate(0px,0px);
-	-moz-animation: bannar_come linear 6s;
-	-moz-transform:translate(0px,0px);
-	-o-animation: bannar_come linear 6s;
-	-o-transform:translate(0px,0px);
-	-ms-animation: bannar_come linear 6s;
-	-ms-transform:translate(0px,0px);
-	animation: bannar_come linear 6s;
-	transform:translate(0px,0px);
+    -webkit-animation: bannar_come linear 6s forwards;
+    -webkit-transform: translate(0px, 0px);
+    
+    -moz-animation: bannar_come linear 6s forwards;
+    -moz-transform: translate(0px, 0px);
+    
+    -o-animation: bannar_come linear 6s forwards;
+    -o-transform: translate(0px, 0px);
+    
+    -ms-animation: bannar_come linear 6s forwards;
+    -ms-transform: translate(0px, 0px);
+    
+    animation: bannar_come linear 6s forwards;
+    transform: translate(0px, 0px);
 }
 @-webkit-keyframes bannar_come {
 	0%{
